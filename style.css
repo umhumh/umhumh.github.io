@@ -16,7 +16,7 @@ body{
     top:0;
     width:22vw;
     height:100vh;
-    background:url("paper-bg.png") center/cover;
+    background:url("paper_bg.png") center/cover;
     z-index:-2;
 }
 
@@ -35,7 +35,7 @@ body{
 }
 
 .green-bg{
-    background:url("bubbles-bg.png") center/cover;
+    background:url("bubbles_bg.png") center/cover;
     min-height:100vh;
     padding:25px;
 }
