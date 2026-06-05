@@ -22,12 +22,7 @@ button{
     top:0;
     width:22vw;
     height:100vh;
-
-    background-image:url("paper_bg.png");
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-
+    background:url("paper_bg.png") center/cover no-repeat;
     z-index:-2;
 }
 
@@ -48,18 +43,13 @@ button{
 .green-bg{
     min-height:100vh;
     padding:25px;
-
-    background-image:url("bubbles_bg.png");
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
+    background:url("bubbles_bg.png") center/cover no-repeat;
 }
 
 .top{
     display:flex;
     gap:30px;
     align-items:flex-start;
-
 }
 
 .paint-column{
@@ -126,24 +116,16 @@ button{
     font-size:24px;
 }
 
-.bottom{
-    display:flex;
-    gap:40px;
-    align-items:flex-start;
-
-    margin-top:-220px;
-    margin-left:140px;
-}
+/* КНОПКИ */
 
 .socials{
+    position:absolute;
+    top:470px;
+    left:0;
+
     display:grid;
     grid-template-columns:repeat(2,120px);
     gap:15px;
-
-    position:absolute;
-
-    top:220px;
-    left:340px;
 }
 
 .social{
@@ -164,44 +146,36 @@ button{
     transform:scale(1.05);
 }
 
+/* КРАФТ */
+
 .crafting{
     width:340px;
     background:#06009c;
     padding:20px;
-
-    margin-top:-450px;
-    margin-left:720px;
 }
 
 @media(max-width:900px){
 
-.top{
-    flex-direction:column;
-}
+    .top{
+        flex-direction:column;
+    }
 
-.paint{
-    width:100%;
-}
+    .paint{
+        width:100%;
+    }
 
-.profile{
-    width:100%;
-}
+    .profile{
+        width:100%;
+    }
 
-.bottom{
-    flex-direction:column;
-}
+    .socials{
+        position:static;
+        margin-top:20px;
+    }
 
-.socials{
-    grid-template-columns:1fr 1fr;
-    width:100%;
-}
-
-.social{
-    width:100%;
-}
-
-.crafting{
-    width:100%;
-}
+    .crafting{
+        width:100%;
+        margin-top:20px;
+    }
 
 }
