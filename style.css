@@ -141,8 +141,9 @@ button{
     gap:15px;
 
     position:absolute;
-    top:430px;
-    left:70px;
+
+    top:220px;
+    left:340px;
 }
 
 .social{
@@ -167,6 +168,9 @@ button{
     width:340px;
     background:#06009c;
     padding:20px;
+
+    margin-top:-450px;
+    margin-left:720px;
 }
 
 @media(max-width:900px){
