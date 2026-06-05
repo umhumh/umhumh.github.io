@@ -12,6 +12,11 @@ body{
     cursor:url("ring.png"), auto;
 }
 
+a,
+button{
+    cursor:url("ring.png") 16 16, pointer;
+}
+
 .paper-left,
 .paper-right{
     position:fixed;
