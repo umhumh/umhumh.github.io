@@ -5,7 +5,9 @@
 }
 
 body{
-    background:red;
+    font-family:'Pixelify Sans',sans-serif;
+    background:#000;
+    overflow-x:hidden;
 }
 
 .paper-left,
@@ -128,15 +130,7 @@ body{
     justify-content:center;
     align-items:center;
     font-size:72px;
-
-    transition:
-        transform .2s ease,
-        box-shadow .2s ease;
-}
-
-.social:hover{
-    transform:translateY(-4px);
-    box-shadow:0 0 25px rgba(255,255,255,.35);
+    transition:.2s;
 }
 
 .social:hover{
