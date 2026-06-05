@@ -63,9 +63,7 @@ button{
 }
 
 .paint-column{
-    display:flex;
-    flex-direction:column;
-    gap:20px;
+    position:relative;
 }
 
 .paint{
@@ -141,7 +139,10 @@ button{
     display:grid;
     grid-template-columns:repeat(2,120px);
     gap:15px;
-}
+
+    position:absolute;
+    top:430px;
+    left:70px;
 
 .social{
     width:120px;
