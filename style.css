@@ -129,10 +129,12 @@ button{
 }
 
 .bottom{
-    margin-top:20px;
     display:flex;
-    gap:50px;
+    gap:40px;
     align-items:flex-start;
+
+    margin-top:-170px;
+    margin-left:90px;
 }
 
 .socials{
