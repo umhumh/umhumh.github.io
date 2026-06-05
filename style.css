@@ -52,10 +52,6 @@ button{
     align-items:flex-start;
 }
 
-.paint-column{
-    position:relative;
-}
-
 .paint{
     width:520px;
     display:block;
@@ -119,13 +115,11 @@ button{
 /* КНОПКИ */
 
 .socials{
-    position:absolute;
-    top:470px;
-    left:0;
-
     display:grid;
     grid-template-columns:repeat(2,120px);
     gap:15px;
+
+    margin-top:20px;
 }
 
 .social{
