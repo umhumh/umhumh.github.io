@@ -8,8 +8,7 @@ body{
     font-family:'Pixelify Sans',sans-serif;
     background:#000;
     overflow-x:hidden;
-
-    cursor: crosshair;
+    cursor:url("ring.png") 16 16, auto;
 }
 
 a,
