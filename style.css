@@ -8,6 +8,8 @@ body{
     font-family:'Pixelify Sans',sans-serif;
     background:#000;
     overflow-x:hidden;
+
+    cursor:url("ring.png"), auto;
 }
 
 .paper-left,
