@@ -53,6 +53,13 @@ body{
     display:flex;
     gap:30px;
     align-items:flex-start;
+
+}
+
+.paint-column{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
 }
 
 .paint{
@@ -124,13 +131,13 @@ body{
 
 .socials{
     display:grid;
-    grid-template-columns:repeat(2,180px);
-    gap:20px;
+    grid-template-columns:repeat(2,120px);
+    gap:15px;
 }
 
 .social{
-    width:180px;
-    height:180px;
+    width:120px;
+    height:120px;
     background:#06009c;
     border-radius:35px;
     color:white;
