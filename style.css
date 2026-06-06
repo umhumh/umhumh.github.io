@@ -57,6 +57,10 @@ button{
     display:block;
 }
 
+.paint-mobile{
+    display:none;
+}
+
 .paint-column{
     position:relative;
 }
@@ -157,7 +161,23 @@ button{
     margin-top:20px;
 }
 
-@media(max-width:900px){
+@media(max-width:900px)
+.paint{
+    display:none;
+}
+
+.paint-mobile{
+    display:block;
+    width:100%;
+}
+.mobile-tools-row{
+    display:none;
+}
+
+.mobile-socials{
+    display:none;
+}
+{
 
 .top{
     display:block;
