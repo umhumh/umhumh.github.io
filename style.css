@@ -194,13 +194,13 @@ button{
 
 .mobile-socials{
     display:grid;
-    grid-template-columns:repeat(2,130px);
+    grid-template-columns:repeat(2,120px);
     gap:15px;
 }
 
 .mobile-socials .social{
-    width:130px;
-    height:130px;
+    width:120px;
+    height:120px;
     font-size:46px;
 }
 
