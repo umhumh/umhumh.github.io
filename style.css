@@ -61,6 +61,14 @@ button{
     display:none;
 }
 
+.mobile-tools-row{
+    display:none;
+}
+
+.mobile-socials{
+    display:none;
+}
+
 .paint-column{
     position:relative;
 }
@@ -180,7 +188,8 @@ button{
 }
 
 .mobile-tools{
-    width:90px;
+    width:120px;
+    display:block;
 }
 
 .mobile-socials{
