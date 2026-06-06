@@ -193,15 +193,14 @@ button{
 }
 
 .mobile-socials{
-    display:grid;
-    grid-template-columns:repeat(2,80px);
-    gap:10px;
+    grid-template-columns:repeat(2,130px);
+    gap:15px;
 }
 
 .mobile-socials .social{
-    width:80px;
-    height:80px;
-    font-size:28px;
+    width:130px;
+    height:130px;
+    font-size:46px;
 }
 
 .socials{
