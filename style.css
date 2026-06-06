@@ -193,6 +193,7 @@ button{
 }
 
 .mobile-socials{
+    display:grid;
     grid-template-columns:repeat(2,130px);
     gap:15px;
 }
