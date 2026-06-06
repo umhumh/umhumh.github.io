@@ -202,28 +202,3 @@ button{
     width:100%;
 }
 
-}
-
-    .top{
-        flex-direction:column;
-    }
-
-    .paint{
-        width:100%;
-    }
-
-    .profile{
-        width:100%;
-    }
-
-    .socials{
-        position:static;
-        margin-top:20px;
-    }
-
-    .crafting{
-        width:100%;
-        margin-top:20px;
-    }
-
-}
