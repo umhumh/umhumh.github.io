@@ -161,7 +161,8 @@ button{
     margin-top:20px;
 }
 
-@media(max-width:900px)
+@media(max-width:900px){
+
 .paint{
     display:none;
 }
@@ -170,46 +171,40 @@ button{
     display:block;
     width:100%;
 }
+
 .mobile-tools-row{
-    display:none;
+    display:flex;
+    gap:15px;
+    align-items:flex-start;
+    margin-top:15px;
+}
+
+.mobile-tools{
+    width:90px;
 }
 
 .mobile-socials{
+    display:grid;
+    grid-template-columns:repeat(2,80px);
+    gap:10px;
+}
+
+.mobile-socials .social{
+    width:80px;
+    height:80px;
+    font-size:28px;
+}
+
+.socials{
     display:none;
 }
-{
 
 .top{
     display:block;
 }
 
-.paint{
-    width:100%;
-}
-
 .paint-column{
     position:static;
-}
-
-/* Кнопки справа от панели */
-
-.socials{
-    position:absolute;
-
-    top:72%;
-    left:120px;
-
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-
-    width:180px;
-    gap:10px;
-}
-
-.social{
-    width:80px;
-    height:80px;
-    font-size:36px;
 }
 
 .profile{
@@ -230,4 +225,4 @@ button{
     width:100%;
 }
 
-
+}
