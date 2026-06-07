@@ -234,4 +234,32 @@ button{
     width:100%;
 }
 
+.log-terminal{
+    max-width:900px;
+
+    margin:50px auto;
+
+    background:#06009c;
+
+    color:white;
+
+    padding:30px;
+
+    font-family:monospace;
+
+    min-height:600px;
+}
+
+.log-terminal a{
+    display:block;
+
+    color:#d8ff00;
+
+    text-decoration:none;
+
+    margin:10px 0;
+}
+
+.log-terminal a:hover{
+    color:white;
 }
