@@ -179,7 +179,16 @@ button{
     top:40px;
     right:-170px;
 
-    color:#d8ff00;
+    color:#06009c;
+
+    text-decoration:none;
+
+    font-size:42px;
+
+    font-family:monospace;
+
+    font-weight:bold;
+}
 
     text-decoration:none;
 
