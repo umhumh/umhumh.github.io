@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG_001</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="log-terminal">
+
+<p>UMH LOG TERMINAL v0.1</p>
+
+<br>
+
+<p>> open log_001</p>
+
+<br>
+
+<h2>LOG_001</h2>
+
+<p>date: 08.06.2025</p>
+
+<p>status: active</p>
+
+<p>experiment: website creation</p>
+
+<br>
+
+<p>
+сегодня был создан этот лог
+буду использоватч вместо тгк в будущем
+следите за обновлениями!!
+</p>
+
+<br>
+
+<a href="log.html">> back</a>
+
+<br>
+
+<p>> _</p>
+
+</div>
+
+</body>
+</html>
