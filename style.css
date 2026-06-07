@@ -169,6 +169,25 @@ button{
     margin-top:20px;
 }
 
+.right-column{
+    position:relative;
+}
+
+.log-button{
+    position:absolute;
+
+    top:40px;
+    right:-170px;
+
+    color:#d8ff00;
+
+    text-decoration:none;
+
+    font-size:42px;
+
+    font-family:monospace;
+}
+
 @media(max-width:900px){
 
 .paint{
@@ -198,10 +217,12 @@ button{
     gap:15px;
 }
 
-.mobile-socials .social{
-    width:120px;
-    height:120px;
-    font-size:46px;
+.mobile-socials{
+    display:grid;
+    grid-template-columns:repeat(2,120px);
+    gap:15px;
+
+    justify-content:center;
 }
 
 .socials{
@@ -262,4 +283,15 @@ button{
 
 .log-terminal a:hover{
     color:white;
+
+    .log-button{
+    display:none;
+}
+
+.mobile-log{
+    width:120px;
+    height:120px;
+    font-size:36px;
+}
+    
 }
