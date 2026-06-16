@@ -222,6 +222,16 @@ button{
 
 }
 
+.archive-link{
+color:white;
+text-decoration:none;
+padding:0 8px;
+}
+
+.archive-link:hover{
+color:#ffffff;
+}
+
 @media(max-width:900px){
 
 .paint{
