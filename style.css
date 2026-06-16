@@ -222,14 +222,19 @@ button{
 
 }
 
+.path{
+margin:0;
+}
+
 .archive-link{
-color:white;
+display:inline;
+color:white !important;
 text-decoration:none;
-padding:0 8px;
+margin:0 8px;
 }
 
 .archive-link:hover{
-color:#ffffff;
+color:white !important;
 }
 
 @media(max-width:900px){
