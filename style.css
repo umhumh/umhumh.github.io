@@ -248,13 +248,13 @@ button{
 .mobile-socials{
     display:grid;
     grid-template-columns:repeat(2,120px);
-    gap:30px;
+    gap:60px;
 }
 
 .mobile-socials{
     display:grid;
     grid-template-columns:repeat(2,120px);
-    gap:30px;
+    gap:60px;
 
     justify-content:center;
 }
