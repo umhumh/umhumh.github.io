@@ -207,13 +207,10 @@ button{
     min-height:600px;
 }
 
-.log-terminal a{
+.log-terminal a:not(.archive-link){
     display:block;
-
     color:#d8ff00;
-
     text-decoration:none;
-
     margin:10px 0;
 }
 
