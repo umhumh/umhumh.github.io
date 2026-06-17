@@ -376,10 +376,10 @@ font-weight:bold;
 .mz1-node{ top:260px; left:35%; }
 .refs-node{ top:300px; left:35%; }
 
-.yt-node{ top:220px; left:50%; }
-.tg-node{ top:260px; left:50%; }
-.tgc-node{ top:300px; left:50%; }
-.pin-node{ top:360px; left:50%; }
+.yt-node{ top:220px; left:54%; }
+.tg-node{ top:260px; left:54%; }
+.tgc-node{ top:300px; left:54%; }
+.pin-node{ top:360px; left:54%; }
 
 .web-node{ top:220px; left:85%; transform:translateX(-100%); }
 .music-node{ top:260px; left:85%; transform:translateX(-100%); }
@@ -472,7 +472,7 @@ font-weight:bold;
 
 .network-branch{
     top:145px;
-    left:52%;
+    left:53%;
 }
 
 .inspo-branch{
