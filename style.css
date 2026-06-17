@@ -313,30 +313,23 @@ font-size:30px;
 font-weight:bold;
 }
 
-.umh-node{
-    top:40px;
-    left:50%;
-    transform:translateX(-50%);
-    font-size:64px;
-}
-
 .website-node{
-    top:100px;
+    top:140px;
     left:10%;
 }
 
 .mimizu-node{
-    top:100px;
+    top:140px;
     left:35%;
 }
 
 .network-node{
-    top:100px;
+    top:140px;
     left:60%;
 }
 
 .inspo-node{
-    top:100px;
+    top:140px;
     left:85%;
     transform:translateX(-100%);
 }
@@ -358,24 +351,24 @@ font-weight:bold;
     color:white;
 }
 
-.exp-node{ top:180px; left:10%; }
-.logs-node{ top:220px; left:10%; }
-.design-node{ top:260px; left:10%; }
-.video-node{ top:300px; left:10%; }
+.exp-node{ top:200px; left:10%; }
+.logs-node{ top:260px; left:10%; }
+.design-node{ top:300px; left:10%; }
+.video-node{ top:340px; left:10%; }
 
-.mz0-node{ top:180px; left:35%; }
-.mz1-node{ top:220px; left:35%; }
-.refs-node{ top:260px; left:35%; }
+.mz0-node{ top:220px; left:35%; }
+.mz1-node{ top:260px; left:35%; }
+.refs-node{ top:300px; left:35%; }
 
-.yt-node{ top:180px; left:55%; }
-.tg-node{ top:220px; left:55%; }
-.tgc-node{ top:260px; left:55%; }
-.pin-node{ top:300px; left:55%; }
+.yt-node{ top:220px; left:55%; }
+.tg-node{ top:260px; left:55%; }
+.tgc-node{ top:300px; left:55%; }
+.pin-node{ top:360px; left:55%; }
 
-.web-node{ top:180px; left:85%; transform:translateX(-100%); }
-.music-node{ top:220px; left:85%; transform:translateX(-100%); }
-.art-node{ top:260px; left:85%; transform:translateX(-100%); }
-.concept-node{ top:300px; left:85%; transform:translateX(-100%); }
+.web-node{ top:220px; left:85%; transform:translateX(-100%); }
+.music-node{ top:260px; left:85%; transform:translateX(-100%); }
+.art-node{ top:300px; left:85%; transform:translateX(-100%); }
+.concept-node{ top:360px; left:85%; transform:translateX(-100%); }
 .node{
     font-family:'Pixelify Sans', sans-serif;
     font-size:48px;
