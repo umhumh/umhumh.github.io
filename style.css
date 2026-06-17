@@ -462,22 +462,22 @@ font-weight:bold;
 
 .website-branch{
     top:145px;
-    left:10%;
+    left:6%;
 }
 
 .mimizu-branch{
     top:145px;
-    left:35%;
+    left:31%;
 }
 
 .network-branch{
     top:145px;
-    left:60%;
+    left:56%;
 }
 
 .inspo-branch{
     top:145px;
-    left:85%;
+    left:79%;
 }
 
 @media(max-width:900px){
