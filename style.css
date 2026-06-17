@@ -376,10 +376,10 @@ font-weight:bold;
 .mz1-node{ top:260px; left:35%; }
 .refs-node{ top:300px; left:35%; }
 
-.yt-node{ top:220px; left:55%; }
-.tg-node{ top:260px; left:55%; }
-.tgc-node{ top:300px; left:55%; }
-.pin-node{ top:360px; left:55%; }
+.yt-node{ top:220px; left:50%; }
+.tg-node{ top:260px; left:50%; }
+.tgc-node{ top:300px; left:50%; }
+.pin-node{ top:360px; left:50%; }
 
 .web-node{ top:220px; left:85%; transform:translateX(-100%); }
 .music-node{ top:260px; left:85%; transform:translateX(-100%); }
@@ -462,22 +462,22 @@ font-weight:bold;
 
 .website-branch{
     top:145px;
-    left:6%;
+    left:9%;
 }
 
 .mimizu-branch{
     top:145px;
-    left:31%;
+    left:34%;
 }
 
 .network-branch{
     top:145px;
-    left:46%;
+    left:49%;
 }
 
 .inspo-branch{
     top:145px;
-    left:79%;
+    left:84%;
 }
 
 @media(max-width:900px){
