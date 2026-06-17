@@ -252,6 +252,75 @@ font-family:'Pixelify Sans', monospace;
 color:white;
 }
 
+.archive-field{
+
+margin-top:40px;
+
+height:700px;
+
+border:4px solid white;
+
+position:relative;
+
+background-image:
+linear-gradient(
+rgba(255,255,255,0.15) 1px,
+transparent 1px
+),
+
+linear-gradient(
+90deg,
+rgba(255,255,255,0.15) 1px,
+transparent 1px
+);
+
+background-size:32px 32px;
+}
+
+.node{
+
+position:absolute;
+
+color:white;
+
+font-size:48px;
+
+font-weight:bold;
+}
+
+.umh-node{
+
+top:60px;
+
+left:50%;
+
+transform:translateX(-50%);
+}
+
+.website-node{
+
+top:250px;
+left:150px;
+}
+
+.mimizu-node{
+
+top:250px;
+left:500px;
+}
+
+.network-node{
+
+top:250px;
+left:850px;
+}
+
+.inspo-node{
+
+top:250px;
+left:1200px;
+}
+
 @media(max-width:900px){
 
 .paint{
