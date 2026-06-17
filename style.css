@@ -341,7 +341,7 @@ font-weight:bold;
 
 .network-node{
     top:140px;
-    left:50%;
+    left:54%;
 }
 
 .inspo-node{
@@ -439,9 +439,9 @@ font-weight:bold;
 .line-horizontal{
     position:absolute;
 
-    top:145px;
+    top:150px;
 
-    left:10%;
+    left:19%;
 
     width:75%;
 
@@ -455,7 +455,7 @@ font-weight:bold;
 
     width:2px;
 
-    height:30px;
+    height:60px;
 
     background:white;
 }
@@ -472,12 +472,12 @@ font-weight:bold;
 
 .network-branch{
     top:145px;
-    left:49%;
+    left:52%;
 }
 
 .inspo-branch{
     top:145px;
-    left:84%;
+    left:90%;
 }
 
 @media(max-width:900px){
