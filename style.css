@@ -234,6 +234,24 @@ margin:0 8px;
 color:white !important;
 }
 
+.archive-button{
+
+display:inline-block;
+
+margin-top:20px;
+
+color:#D8FF00;
+
+text-decoration:none;
+
+font-family:'Pixelify Sans', monospace;
+}
+
+.archive-button:hover{
+
+color:white;
+}
+
 @media(max-width:900px){
 
 .paint{
