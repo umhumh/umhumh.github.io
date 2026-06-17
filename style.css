@@ -420,6 +420,66 @@ font-weight:bold;
     text-decoration:none;
 }
 
+.line-vertical{
+    position:absolute;
+
+    top:105px;
+
+    left:50%;
+
+    width:2px;
+
+    height:40px;
+
+    background:white;
+
+    transform:translateX(-50%);
+}
+
+.line-horizontal{
+    position:absolute;
+
+    top:145px;
+
+    left:10%;
+
+    width:75%;
+
+    height:2px;
+
+    background:white;
+}
+
+.branch{
+    position:absolute;
+
+    width:2px;
+
+    height:30px;
+
+    background:white;
+}
+
+.website-branch{
+    top:145px;
+    left:10%;
+}
+
+.mimizu-branch{
+    top:145px;
+    left:35%;
+}
+
+.network-branch{
+    top:145px;
+    left:60%;
+}
+
+.inspo-branch{
+    top:145px;
+    left:85%;
+}
+
 @media(max-width:900px){
 
 .paint{
