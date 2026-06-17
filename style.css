@@ -439,11 +439,11 @@ font-weight:bold;
 .line-horizontal{
     position:absolute;
 
-    top:150px;
+    top:145px;
 
-    left:19%;
+    left:9%;
 
-    width:75%;
+    width:76%;
 
     height:2px;
 
@@ -455,7 +455,7 @@ font-weight:bold;
 
     width:2px;
 
-    height:60px;
+    height:10px;
 
     background:white;
 }
