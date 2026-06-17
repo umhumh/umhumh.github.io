@@ -6,7 +6,7 @@
 
 body{
     font-family:'Pixelify Sans',sans-serif;
-    background:#000;
+    background:#06009C;
     overflow-x:hidden;
     cursor:url("ring.png") 16 16, auto;
 }
@@ -268,13 +268,6 @@ height:700px;
 border:4px solid white;
 
 position:relative;
-
-body {
-    background-color: #06009C;
-    color: white;
-    margin: 0;
-    font-family: 'Pixelify Sans', sans-serif;
-}
     
 background-image:
 linear-gradient(
@@ -302,38 +295,10 @@ font-size:48px;
 font-weight:bold;
 }
 
-.umh-node{
-
-top:60px;
-
-left:50%;
-
-transform:translateX(-50%);
-}
-
-.website-node{
-
-top:250px;
-left:150px;
-}
-
-.mimizu-node{
-
-top:250px;
-left:500px;
-}
-
-.network-node{
-
-top:250px;
-left:850px;
-}
-
-.inspo-node{
-
-top:250px;
-left:1200px;
-}
+.website-node { left:10%; }
+.mimizu-node { left:35%; }
+.network-node { left:60%; }
+.inspo-node  { left:85%; }
 
 .archive-container {
     max-width: 1600px;
