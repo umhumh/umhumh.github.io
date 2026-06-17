@@ -313,6 +313,21 @@ font-size:30px;
 font-weight:bold;
 }
 
+.umh-node{
+    position:absolute;
+
+    top:40px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    font-size:64px;
+
+    color:white;
+
+    text-decoration:none;
+
 .website-node{
     top:140px;
     left:10%;
