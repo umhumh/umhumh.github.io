@@ -367,7 +367,7 @@ font-weight:bold;
     color:white;
 }
 
-.exp-node{ top:200px; left:10%; }
+.exp-node{ top:220px; left:10%; }
 .logs-node{ top:260px; left:10%; }
 .design-node{ top:300px; left:10%; }
 .video-node{ top:340px; left:10%; }
@@ -379,12 +379,12 @@ font-weight:bold;
 .yt-node{ top:220px; left:54%; }
 .tg-node{ top:260px; left:54%; }
 .tgc-node{ top:300px; left:54%; }
-.pin-node{ top:360px; left:54%; }
+.pin-node{ top:340px; left:54%; }
 
 .web-node{ top:220px; left:85%; transform:translateX(-100%); }
 .music-node{ top:260px; left:85%; transform:translateX(-100%); }
 .art-node{ top:300px; left:85%; transform:translateX(-100%); }
-.concept-node{ top:360px; left:85%; transform:translateX(-100%); }
+.concept-node{ top:340px; left:85%; transform:translateX(-100%); }
 .node{
     font-family:'Pixelify Sans', sans-serif;
     font-size:48px;
