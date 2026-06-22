@@ -26,6 +26,15 @@ button{
     z-index:-2;
 }
 
+.left-side{
+
+    display:flex;
+
+    gap:20px;
+
+    align-items:flex-start;
+}
+
 .paper-left{
     left:0;
 }
@@ -481,19 +490,13 @@ font-weight:bold;
 }
 .now-panel{
 
-    position:absolute;
-
-    left:-170px;
-
-    top:20px;
-
-    width:150px;
+    width:180px;
 
     background:#06009C;
 
     border:4px solid white;
 
-    padding:12px;
+    padding:15px;
 
     color:white;
 }
