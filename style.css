@@ -160,7 +160,7 @@ button{
     justify-content:start;
 
     margin-left:130px;
-    margin-top:-480px;;
+    margin-top:-380px;;
 }
 
 .social{
@@ -179,6 +179,10 @@ button{
 
 .social:hover{
     transform:scale(1.05);
+}
+
+.fish-gif{
+    transform:rotate(90deg);
 }
 
 /* КРАФТ */
