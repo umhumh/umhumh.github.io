@@ -16,6 +16,10 @@ button{
     cursor:url("ring.png") 16 16, pointer;
 }
 
+.hidden-link{
+    color:transparent;
+}
+
 .paper-left,
 .paper-right{
     position:fixed;
