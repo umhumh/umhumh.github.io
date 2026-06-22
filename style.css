@@ -149,7 +149,7 @@ button{
 
 /* КНОПКИ */
 
-.socials{
+socials{
     grid-area:socials;
 
     display:grid;
@@ -157,8 +157,10 @@ button{
 
     gap:30px;
 
-    margin-left:340px;
-    margin-top:-10px;
+    justify-content:start;
+
+    margin-left:100px;
+    margin-top:-30px;
 }
 
 .social{
