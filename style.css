@@ -4,6 +4,12 @@
     box-sizing:border-box;
 }
 
+.log-terminal img{
+    display:block;
+    margin-left:0;
+    max-width:none;
+}
+
 body{
     font-family:'Pixelify Sans',sans-serif;
     background:#06009C;
