@@ -27,12 +27,8 @@ button{
 }
 
 .left-side{
-
-    display:grid;
-
-    grid-template-columns:180px 520px;
-
-    gap:20px;
+    display:flex;
+    flex-direction:column;
 }
 
 .paper-left{
@@ -56,9 +52,9 @@ button{
 }
 
 .top{
-    display:flex;
+    display:grid;
+    grid-template-columns:700px 430px;
     gap:30px;
-    align-items:flex-start;
 }
 
 .paint{
@@ -141,8 +137,6 @@ button{
 
 .socials{
 
-    grid-column:2;
-
     display:grid;
 
     grid-template-columns:repeat(2,160px);
@@ -150,8 +144,9 @@ button{
     gap:30px;
 
     margin-top:20px;
-}
 
+    margin-left:180px;
+}
 .social{
     width:160px;
     height:160px;
