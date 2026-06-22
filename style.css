@@ -46,15 +46,6 @@ button{
     grid-area:paint;
 }
 
-.socials{
-    grid-area:socials;
-
-    display:grid;
-    grid-template-columns:repeat(2,160px);
-
-    gap:30px;
-}
-
 .paper-left{
     left:0;
 }
