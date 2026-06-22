@@ -149,7 +149,7 @@ button{
 
 /* КНОПКИ */
 
-socials{
+.socials{
     grid-area:socials;
 
     display:grid;
