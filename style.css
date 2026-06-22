@@ -479,7 +479,65 @@ font-weight:bold;
     top:145px;
     left:84%;
 }
+.now-panel{
 
+    position:absolute;
+
+    left:-220px;
+
+    top:80px;
+
+    width:180px;
+
+    background:#06009C;
+
+    border:4px solid white;
+
+    padding:15px;
+
+    color:white;
+}
+
+.now-panel h2{
+
+    color:#D8FF00;
+
+    font-size:32px;
+
+    margin-bottom:15px;
+}
+
+.now-panel p{
+
+    font-size:18px;
+
+    margin-bottom:15px;
+
+    line-height:1.4;
+}
+
+.path{
+
+    margin-bottom:15px;
+
+    color:white;
+
+    font-size:20px;
+}
+
+.archive-title{
+
+    color:#D8FF00;
+
+    text-decoration:none;
+
+    font-weight:bold;
+}
+
+.archive-title:hover{
+
+    color:white;
+}
 @media(max-width:900px){
 
 .paint{
