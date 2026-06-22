@@ -144,7 +144,7 @@ button{
 
     gap:30px;
 
-    margin-top:20px;
+    justify-content:start;
 }
 .social{
     width:160px;
