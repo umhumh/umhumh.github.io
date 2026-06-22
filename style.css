@@ -147,7 +147,7 @@ button{
     position:absolute;
 
     top:650px;
-    left:150px;
+    left:300px;
 }
 
 .social{
@@ -183,8 +183,6 @@ button{
 }
 
 .log-button{
-    position:absolute;
-
     top:40px;
     right:-170px;
 
