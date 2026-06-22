@@ -27,8 +27,9 @@ button{
 }
 
 .left-side{
-    display:flex;
-    flex-direction:column;
+    display:grid;
+    grid-template-columns:180px 520px;
+    gap:20px;
 }
 
 .paper-left{
@@ -52,9 +53,9 @@ button{
 }
 
 .top{
-    display:grid;
-    grid-template-columns:700px 430px;
-    gap:30px;
+    display:flex;
+    gap:20px;
+    align-items:flex-start;
 }
 
 .paint{
@@ -136,16 +137,15 @@ button{
 /* КНОПКИ */
 
 .socials{
+    grid-column:2;
 
     display:grid;
-
     grid-template-columns:repeat(2,160px);
 
     gap:30px;
 
     margin-top:20px;
-
-    margin-left:180px;
+}
 }
 .social{
     width:160px;
