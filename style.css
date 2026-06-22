@@ -140,14 +140,14 @@ button{
 /* КНОПКИ */
 
 .socials{
+
     display:grid;
-    grid-template-columns:repeat(2,120px);
-    gap:60px;
 
-    position:absolute;
+    grid-template-columns:repeat(2,160px);
 
-    top:650px;
-    left:300px;
+    gap:30px;
+
+    margin-top:20px;
 }
 
 .social{
