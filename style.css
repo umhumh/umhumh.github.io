@@ -150,15 +150,16 @@ button{
 /* КНОПКИ */
 
 .socials{
-    grid-column:2;
+    grid-area:socials;
 
     display:grid;
     grid-template-columns:repeat(2,160px);
 
     gap:30px;
 
-    justify-content:start;
+    margin-left:60px;
 }
+
 .social{
     width:160px;
     height:160px;
