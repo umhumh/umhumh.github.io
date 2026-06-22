@@ -28,8 +28,31 @@ button{
 
 .left-side{
     display:grid;
+
     grid-template-columns:180px 520px;
+
+    grid-template-areas:
+        "now paint"
+        ". socials";
+
     gap:20px;
+}
+
+.now-panel{
+    grid-area:now;
+}
+
+.paint-column{
+    grid-area:paint;
+}
+
+.socials{
+    grid-area:socials;
+
+    display:grid;
+    grid-template-columns:repeat(2,160px);
+
+    gap:30px;
 }
 
 .paper-left{
