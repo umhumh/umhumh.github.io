@@ -5,9 +5,8 @@
 }
 
 .log-terminal img{
-    display:block;
-    margin-left:0;
-    max-width:none;
+    position:relative;
+    left:-100px;
 }
 
 body{
