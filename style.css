@@ -168,6 +168,8 @@ button{
 /* КНОПКИ */
 
 .socials{
+    position:relative;
+    z-index:10;
     grid-area:socials;
 
     display:grid;
